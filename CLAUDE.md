@@ -49,11 +49,24 @@ git push origin branch-name
 ## Project Status
 IntelliCRM project is fully set up with version control. Ready for development with proper GitHub integration.
 
+## MCP (Model Context Protocol) Setup
+- ✅ Context7 MCP server installed globally
+- ✅ MCP configuration file created (mcp-config.json)
+- Context7 provides up-to-date documentation for development frameworks
+
+### Using Context7
+Add "use context7" to your prompts to get current, version-specific documentation:
+```
+Create a CRUD API in FastAPI with authentication. use context7
+Create a Next.js middleware that checks for JWT tokens. use context7
+```
+
 ## Development Commands
 *To be updated as the project structure is established*
 
 ## Notes for Development
 - This appears to be intended as an intelligent CRM system
+- Context7 MCP integration available for enhanced documentation lookup
 - Future updates to this file should include:
   - Package manager and build system commands once established
   - Project architecture and key directories
