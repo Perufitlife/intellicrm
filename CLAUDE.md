@@ -4,8 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Information
 - **Project**: IntelliCRM - Intelligent Customer Relationship Management System
+- **GitHub Repository**: https://github.com/Perufitlife/intellicrm
 - **GitHub User**: Perufitlife (https://github.com/Perufitlife)
 - **Email**: renzomacar@gmail.com
+
+## Repository Setup
+- ✅ Git repository initialized and configured
+- ✅ GitHub remote repository connected
+- ✅ Comprehensive .gitignore file in place
+- ✅ Main branch configured (following modern Git standards)
+- ✅ GitHub CLI authenticated and ready
 
 ## Git Workflow & Best Practices
 - Always use meaningful commit messages following conventional commits format
@@ -14,9 +22,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Commit frequently with atomic changes
 - Always run tests before committing if available
 - Use `git status` and `git diff` to review changes before committing
+- Always push changes to keep GitHub repository in sync
+- Include Claude Code signature in commit messages
+
+## Common Git Commands
+```bash
+# Check status and review changes
+git status
+git diff
+
+# Create and switch to feature branch
+git checkout -b feature/feature-name
+
+# Stage and commit changes
+git add .
+git commit -m "feat: description of changes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+
+# Push changes to GitHub
+git push origin branch-name
+```
 
 ## Project Status
-This is a new IntelliCRM project directory. Git repository has been initialized and configured with Perufitlife as the author.
+IntelliCRM project is fully set up with version control. Ready for development with proper GitHub integration.
 
 ## Development Commands
 *To be updated as the project structure is established*
